@@ -1,0 +1,41 @@
+img{
+    max-height:40rem;
+    width:100%;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    width:45rem;
+    padding:2rem;
+}
+
+
+h1{
+    margin:auto;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 3rem;
+    margin-top:1rem;
+}
+
+.description{
+    display:flex;
+    color:#ffff;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin-top:1rem;
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+.btn{
+    width:10rem;
+    margin:auto;
+    cursor: pointer;
+    margin-top:2rem;
+}
+
+.btn:hover{
+    background-color:#0111CD;
+}
